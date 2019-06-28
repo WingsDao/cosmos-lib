@@ -1,0 +1,21 @@
+{
+  "name": "cosmos-lib",
+  "version": "1.0.0",
+  "description": "Lib to generate private/public keys, addresses for Cosmos ",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "test": "mocha"
+  },
+  "dependencies": {
+    "bech32": "^1.1.3",
+    "bip32": "^2.0.3",
+    "bip39": "^3.0.2",
+    "ripemd160": "^2.0.2",
+    "secp256k1": "^3.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
