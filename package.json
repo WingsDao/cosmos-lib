@@ -18,5 +18,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
+  },
+  "repository": {
+      "type" : "git",
+      "url" : "git@github.com:WingsDao/cosmos-lib.git"
   }
 }
