@@ -23,5 +23,6 @@
       "type" : "git",
       "url" : "git@github.com:WingsDao/cosmos-lib.git"
   },
+  "keywords": ["crypto", "cosmos-sdk", "cosmos", "bech32", "address", "bitcoin"],
   "homepage": "https://github.com/WingsDao/cosmos-lib"
 }
