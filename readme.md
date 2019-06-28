@@ -3,9 +3,9 @@
 JS implementation of [Cosmos](https://github.com/cosmos/cosmos-sdk) cryptography and addresses logic.
 
 Features:
-    * Generate private/public key from mnemonic and path.
-    * Sign/verify bytes/JSON with private/public key.s
-    * Convert Cosmos bech32 address to bytes32 (solidity capability).
+* Generate private/public key from mnemonic and path.
+* Sign/verify bytes/JSON with private/public key.s
+* Convert Cosmos bech32 address to bytes32 (solidity capability).
 
 # Installation
 
