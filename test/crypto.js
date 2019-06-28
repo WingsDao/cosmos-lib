@@ -18,8 +18,6 @@ describe('lib/crypto', () => {
 
     const bytes = crypto.randomBytes(12);
     const json  = {
-        MNEMONIC,
-        PUBLIC_KEY,
         data: crypto.randomBytes(128)
     };
 

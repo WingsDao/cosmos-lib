@@ -22,7 +22,7 @@ describe('lib/address', () => {
     });
 
     it('Should get bytes from address', () => {
-        bytes   = cosmos.address.getBytes(ADDRESS);
+        bytes = cosmos.address.getBytes(ADDRESS);
 
         bytes.length.should.be.equal(20);
         bytes.toString('hex').should.be.equal(BYTES_HEX);
