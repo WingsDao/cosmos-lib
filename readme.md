@@ -54,7 +54,8 @@ if (!verify) {
 Get address from public key:
 
 ```js
-const address = cosmos.address.getAddress(keys.publicKey);
+const prefix = 'mywallet';
+const address = cosmos.address.getAddress(keys.publicKey, prefix); // prefix by default is 'cosmos'.
 console.log(address);
 ```
 
